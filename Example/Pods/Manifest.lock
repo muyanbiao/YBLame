@@ -1,0 +1,16 @@
+PODS:
+  - YBLame (0.1.0)
+
+DEPENDENCIES:
+  - YBLame (from `../`)
+
+EXTERNAL SOURCES:
+  YBLame:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YBLame: 61d4055552e12e6b6c43eaa4bc88a58e2ac0d45d
+
+PODFILE CHECKSUM: eff822e5772efd9f0f1a85a38f2774b9a56d1edb
+
+COCOAPODS: 1.8.4

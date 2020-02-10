@@ -22,7 +22,7 @@ pod 'YBLame'
 
 ## Author
 
-muyanbiao, muyanbiao@xunlei.com
+muyanbiao, muyanbiao@gmail.com
 
 ## License
 

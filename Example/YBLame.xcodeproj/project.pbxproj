@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		034C32D4B87C81E5E6F5128E /* Pods_YBLame_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBLame_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		33D51A53CE9675C0FC6FC75D /* YBLame.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YBLame.podspec; path = ../YBLame.podspec; sourceTree = "<group>"; };
+		33D51A53CE9675C0FC6FC75D /* YBLame.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YBLame.podspec; path = ../YBLame.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -27,10 +27,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7D004483B9A9798E4A809262 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7D004483B9A9798E4A809262 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		89C562E460F3A8756748A26E /* Pods-YBLame_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBLame_Tests.release.xcconfig"; path = "Target Support Files/Pods-YBLame_Tests/Pods-YBLame_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A25FEAF6588FB6C8E9ACF066 /* Pods-YBLame_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBLame_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YBLame_Tests/Pods-YBLame_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F8B753B7F0808887E5288660 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F8B753B7F0808887E5288660 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,6 @@
 				A25FEAF6588FB6C8E9ACF066 /* Pods-YBLame_Tests.debug.xcconfig */,
 				89C562E460F3A8756748A26E /* Pods-YBLame_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

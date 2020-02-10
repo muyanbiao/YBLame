@@ -1,0 +1,22 @@
+{
+  "name": "YBLame",
+  "version": "0.1.0",
+  "summary": "A short description of YBLame.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/muyanbiao/YBLame",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "muyanbiao": "muyanbiao@xunlei.com"
+  },
+  "source": {
+    "git": "https://github.com/muyanbiao/YBLame.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YBLame/Classes/**/*"
+}
