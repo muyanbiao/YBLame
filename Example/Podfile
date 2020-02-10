@@ -1,0 +1,6 @@
+use_frameworks!
+target 'YBLame_Tests' do
+  pod 'YBLame', :path => '../'
+  
+  
+end
